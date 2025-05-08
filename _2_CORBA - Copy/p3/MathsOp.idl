@@ -1,0 +1,5 @@
+module MathsOp{
+    interface Maths{
+        double sub(in double a,in double b);
+    };
+};

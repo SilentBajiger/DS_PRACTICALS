@@ -1,0 +1,21 @@
+First Write the Code Neatly
+
+Compile the code first
+
+javac RMI_Interface.java
+javac RMI_Interface_Impl.java
+javac Server.java
+javac Client.java
+
+and then Start the rmiregistry
+
+rmiregistry
+
+click Allow
+
+and run 
+java Server
+
+and open new CMD in same directory
+and run 
+java Client

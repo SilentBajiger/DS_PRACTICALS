@@ -1,0 +1,5 @@
+module CalcOp{
+    interface Calc{
+        double add(in double a,in double b);
+    };
+};

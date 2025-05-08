@@ -1,0 +1,25 @@
+Install JDK 8
+
+
+
+& "C:\Program Files\Java\jdk-1.8\bin\idlj.exe" -fall PallindromeString.idl
+
+or idlj -fall PallindromeString.idl
+
+javac -cp . PallindromeString/*.java
+
+javac -cp . Server.java
+
+java -cp . Client.java
+
+orbd -ORBInitialPort 1050
+
+
+---------new Terminal--------
+
+java -cp . Server -ORBInitialPort 1050
+
+
+--------new Terminal--------
+
+java -cp . Client -ORBInitialPort 1050

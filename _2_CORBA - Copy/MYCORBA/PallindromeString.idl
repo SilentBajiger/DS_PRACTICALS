@@ -1,0 +1,5 @@
+module PallindromeString{
+    interface Pallindrome{
+        boolean isPallindrome(in string str);
+    }
+}
