@@ -1,0 +1,23 @@
+Ok For this Practical firstly install jdk 8 which i have provided to you
+int system variables
+set JAVA_HOME = C:\Program Files\Java\jdk1.8.0_202
+and in Path add path = C:\Program Files\Java\jdk1.8.0_202\bin
+
+then and rename it to mpj
+extract the mpj zip folder in C drive and its location should be like
+C:\mpj\
+ok?
+
+then set the path in 
+make Variable MPJ_HOME = C:\mpj\
+then in system variables edit path and add the path = C:\mpj\bin
+
+then go to your java File directory 
+and compile the code with following command
+
+javac -cp "C:\mpj\lib\mpj.jar;." MPISum.java
+
+then execute it with following command
+this total is the command to run it
+
+C:\mpj\bin\mpjrun.bat -np 4 MPISum
